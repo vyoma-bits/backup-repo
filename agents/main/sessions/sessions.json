@@ -1,1 +1,362 @@
-{}
+{
+  "agent:main:slack:channel:c0b7tv76l2k:thread:1781374327.389519": {
+    "chatType": "channel",
+    "channel": "slack",
+    "groupId": "c0b7tv76l2k",
+    "groupChannel": "#all-vyoma2",
+    "space": "T0B87BH4KJA",
+    "displayName": "slack:t0b87bh4kja#all-vyoma2",
+    "origin": {
+      "label": "#all-vyoma2",
+      "provider": "slack",
+      "surface": "slack",
+      "chatType": "channel",
+      "from": "slack:channel:C0B7TV76L2K",
+      "to": "channel:C0B7TV76L2K",
+      "nativeChannelId": "C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374327.389519"
+    },
+    "sessionId": "48930f89-c089-4cba-a9cd-370a7d8d344d",
+    "updatedAt": 1781374338470,
+    "sessionStartedAt": 1781374330339,
+    "route": {
+      "channel": "slack",
+      "accountId": "default",
+      "target": {
+        "to": "channel:C0B7TV76L2K"
+      },
+      "thread": {
+        "id": "1781374327.389519"
+      }
+    },
+    "deliveryContext": {
+      "channel": "slack",
+      "to": "channel:C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374327.389519"
+    },
+    "lastChannel": "slack",
+    "lastThreadId": "1781374327.389519",
+    "lastInteractionAt": 1781374330451,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "lastTo": "channel:C0B7TV76L2K",
+    "lastAccountId": "default",
+    "sessionFile": "/home/ubuntu/.openclaw/agents/main/sessions/48930f89-c089-4cba-a9cd-370a7d8d344d-topic-1781374327.389519.jsonl",
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "session-logs",
+          "requiredEnv": []
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "slack",
+          "requiredEnv": []
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "tmux",
+          "requiredEnv": []
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 0,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "b6eee8c6c7cf3033baabd11c1f5887ae2528b9c257540cdf5a87a67f305f5687",
+        "bytes": 5804
+      }
+    },
+    "status": "failed",
+    "startedAt": 1781374335220,
+    "endedAt": 1781374338468,
+    "runtimeMs": 3248
+  },
+  "agent:main:slack:channel:c0b7tv76l2k:thread:1781374101.901819": {
+    "chatType": "channel",
+    "channel": "slack",
+    "groupId": "c0b7tv76l2k",
+    "groupChannel": "#all-vyoma2",
+    "space": "T0B87BH4KJA",
+    "displayName": "slack:t0b87bh4kja#all-vyoma2",
+    "origin": {
+      "label": "#all-vyoma2",
+      "provider": "slack",
+      "surface": "slack",
+      "chatType": "channel",
+      "from": "slack:channel:C0B7TV76L2K",
+      "to": "channel:C0B7TV76L2K",
+      "nativeChannelId": "C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374101.901819"
+    },
+    "sessionId": "20943046-d8e3-4b14-b03f-ec5b2440e662",
+    "updatedAt": 1781374467687,
+    "sessionStartedAt": 1781374464233,
+    "route": {
+      "channel": "slack",
+      "accountId": "default",
+      "target": {
+        "to": "channel:C0B7TV76L2K"
+      },
+      "thread": {
+        "id": "1781374101.901819"
+      }
+    },
+    "deliveryContext": {
+      "channel": "slack",
+      "to": "channel:C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374101.901819"
+    },
+    "lastChannel": "slack",
+    "lastTo": "channel:C0B7TV76L2K",
+    "lastAccountId": "default",
+    "lastThreadId": "1781374101.901819",
+    "lastInteractionAt": 1781374464250,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "sessionFile": "/home/ubuntu/.openclaw/agents/main/sessions/20943046-d8e3-4b14-b03f-ec5b2440e662-topic-1781374101.901819.jsonl",
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "session-logs",
+          "requiredEnv": []
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "slack",
+          "requiredEnv": []
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "tmux",
+          "requiredEnv": []
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 0,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "b6eee8c6c7cf3033baabd11c1f5887ae2528b9c257540cdf5a87a67f305f5687",
+        "bytes": 5804
+      }
+    },
+    "status": "failed",
+    "startedAt": 1781374464486,
+    "endedAt": 1781374467686,
+    "runtimeMs": 3200
+  },
+  "agent:main:slack:channel:c0b7tv76l2k:thread:1781374112.449979": {
+    "chatType": "channel",
+    "channel": "slack",
+    "groupId": "c0b7tv76l2k",
+    "groupChannel": "#all-vyoma2",
+    "space": "T0B87BH4KJA",
+    "displayName": "slack:t0b87bh4kja#all-vyoma2",
+    "origin": {
+      "label": "#all-vyoma2",
+      "provider": "slack",
+      "surface": "slack",
+      "chatType": "channel",
+      "from": "slack:channel:C0B7TV76L2K",
+      "to": "channel:C0B7TV76L2K",
+      "nativeChannelId": "C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374112.449979"
+    },
+    "sessionId": "5a64e1e5-bd3c-4e3e-9994-f871acc5ad84",
+    "updatedAt": 1781374477280,
+    "sessionStartedAt": 1781374473787,
+    "route": {
+      "channel": "slack",
+      "accountId": "default",
+      "target": {
+        "to": "channel:C0B7TV76L2K"
+      },
+      "thread": {
+        "id": "1781374112.449979"
+      }
+    },
+    "deliveryContext": {
+      "channel": "slack",
+      "to": "channel:C0B7TV76L2K",
+      "accountId": "default",
+      "threadId": "1781374112.449979"
+    },
+    "lastChannel": "slack",
+    "lastTo": "channel:C0B7TV76L2K",
+    "lastAccountId": "default",
+    "lastThreadId": "1781374112.449979",
+    "lastInteractionAt": 1781374473798,
+    "systemSent": true,
+    "abortedLastRun": false,
+    "sessionFile": "/home/ubuntu/.openclaw/agents/main/sessions/5a64e1e5-bd3c-4e3e-9994-f871acc5ad84-topic-1781374112.449979.jsonl",
+    "skillsSnapshot": {
+      "skills": [
+        {
+          "name": "browser-automation"
+        },
+        {
+          "name": "canvas"
+        },
+        {
+          "name": "diagram-maker"
+        },
+        {
+          "name": "healthcheck"
+        },
+        {
+          "name": "meme-maker",
+          "requiredEnv": []
+        },
+        {
+          "name": "node-connect"
+        },
+        {
+          "name": "node-inspect-debugger",
+          "requiredEnv": []
+        },
+        {
+          "name": "notion",
+          "primaryEnv": "NOTION_API_TOKEN",
+          "requiredEnv": []
+        },
+        {
+          "name": "python-debugpy",
+          "requiredEnv": []
+        },
+        {
+          "name": "session-logs",
+          "requiredEnv": []
+        },
+        {
+          "name": "skill-creator"
+        },
+        {
+          "name": "slack",
+          "requiredEnv": []
+        },
+        {
+          "name": "spike"
+        },
+        {
+          "name": "taskflow"
+        },
+        {
+          "name": "taskflow-inbox-triage"
+        },
+        {
+          "name": "tmux",
+          "requiredEnv": []
+        },
+        {
+          "name": "weather"
+        }
+      ],
+      "version": 0,
+      "promptRef": {
+        "version": 1,
+        "algorithm": "sha256",
+        "hash": "b6eee8c6c7cf3033baabd11c1f5887ae2528b9c257540cdf5a87a67f305f5687",
+        "bytes": 5804
+      }
+    },
+    "status": "failed",
+    "startedAt": 1781374473955,
+    "endedAt": 1781374477279,
+    "runtimeMs": 3324
+  }
+}
