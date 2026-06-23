@@ -1,0 +1,8 @@
+.env
+npm/
+node_modules/
+state/*.sqlite-wal
+state/*.sqlite-shm
+state/openclaw.sqlite
+openclaw.json
+openclaw.json.*
