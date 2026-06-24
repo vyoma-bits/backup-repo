@@ -1,0 +1,111 @@
+
+
+The following skills provide specialized instructions for specific tasks.
+Use the read tool to load a skill's file when the task matches its description.
+If a skill's <version> differs from a previous turn, re-read its SKILL.md before using it.
+When a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.
+
+<available_skills>
+  <skill>
+    <name>browser-automation</name>
+    <description>Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.</description>
+    <location>~/.openclaw/plugin-skills/browser-automation/SKILL.md</location>
+    <version>sha256:c24be5084b5d93ea</version>
+  </skill>
+  <skill>
+    <name>canvas</name>
+    <description>Present HTML on connected OpenClaw node canvases, navigate/eval/snapshot, and debug canvas host URLs.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/canvas/SKILL.md</location>
+    <version>sha256:7419e23f242397b3</version>
+  </skill>
+  <skill>
+    <name>diagram-maker</name>
+    <description>Create SVG/HTML or Excalidraw diagrams for concepts, architecture, flows, and whiteboards.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/diagram-maker/SKILL.md</location>
+    <version>sha256:6195e03fcb04a1a6</version>
+  </skill>
+  <skill>
+    <name>healthcheck</name>
+    <description>Audit/harden OpenClaw hosts: SSH, firewall, updates, exposure, backups, disk encryption, gateway security.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>
+    <version>sha256:518ec6e0482cf1c7</version>
+  </skill>
+  <skill>
+    <name>meme-maker</name>
+    <description>Search meme templates, suggest formats, and generate local or hosted image memes.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/meme-maker/SKILL.md</location>
+    <version>sha256:8b8832f9f0f58b16</version>
+  </skill>
+  <skill>
+    <name>node-connect</name>
+    <description>Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/node-connect/SKILL.md</location>
+    <version>sha256:cc39026fd84e5cfa</version>
+  </skill>
+  <skill>
+    <name>node-inspect-debugger</name>
+    <description>Debug Node.js with node inspect, --inspect, breakpoints, CDP, heap, and CPU profiles.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/node-inspect-debugger/SKILL.md</location>
+    <version>sha256:50d2f6828eaf4bbf</version>
+  </skill>
+  <skill>
+    <name>notion</name>
+    <description>Notion CLI/API for pages, Markdown content, data sources, files, comments, search, Workers, and raw API calls.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/notion/SKILL.md</location>
+    <version>sha256:d45e2c1270d58c78</version>
+  </skill>
+  <skill>
+    <name>python-debugpy</name>
+    <description>Debug Python with pdb, breakpoint(), post-mortem inspection, and debugpy remote attach.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/python-debugpy/SKILL.md</location>
+    <version>sha256:bfb1891204b67260</version>
+  </skill>
+  <skill>
+    <name>session-logs</name>
+    <description>Search and analyze your own session logs (older/parent conversations) using jq.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/session-logs/SKILL.md</location>
+    <version>sha256:5cc9af328643b6b0</version>
+  </skill>
+  <skill>
+    <name>skill-creator</name>
+    <description>Create, edit, audit, tidy, validate, or restructure AgentSkills and SKILL.md files.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>
+    <version>sha256:9e971bac63ad787f</version>
+  </skill>
+  <skill>
+    <name>slack</name>
+    <description>Slack tool actions: send/read/edit/delete messages, react, pin/unpin, list pins/reactions/emoji, member info.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/slack/SKILL.md</location>
+    <version>sha256:76003d7833efbd6c</version>
+  </skill>
+  <skill>
+    <name>spike</name>
+    <description>Run throwaway prototypes to validate feasibility, compare approaches, and report a verdict.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/spike/SKILL.md</location>
+    <version>sha256:1258cde2d0e53267</version>
+  </skill>
+  <skill>
+    <name>taskflow</name>
+    <description>Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/taskflow/SKILL.md</location>
+    <version>sha256:d8b6a48d329aef0a</version>
+  </skill>
+  <skill>
+    <name>taskflow-inbox-triage</name>
+    <description>Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/taskflow-inbox-triage/SKILL.md</location>
+    <version>sha256:1fe28cd924d8ae2d</version>
+  </skill>
+  <skill>
+    <name>tmux</name>
+    <description>Control tmux sessions/panes for interactive CLIs: list, capture output, send keys, paste text, monitor prompts.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/tmux/SKILL.md</location>
+    <version>sha256:98b6b8392ec57e11</version>
+  </skill>
+  <skill>
+    <name>weather</name>
+    <description>Current weather and forecasts with web_fetch, falling back to wttr.in curl for locations, rain, temperature, travel planning.</description>
+    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>
+    <version>sha256:62ab4821aa873949</version>
+  </skill>
+</available_skills>
